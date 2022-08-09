@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">v2v</string>
+    <string name="name_mean">: value to value</string>
     <string name="select">원하는 화풍을 선택해주세요!</string>
+    <string name="upload">upload</string>
+    <string name="change">change</string>
 </resources>

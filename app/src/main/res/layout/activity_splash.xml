@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -7,16 +7,27 @@
     android:background="@color/pink">
 
     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/logo"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/intro">
-    </ImageView>
+        android:textColor="@color/red"
+        android:text="@string/app_name"
+        android:textSize="80sp"
+        android:fontFamily="@font/appfont"
+        android:textStyle="bold"/>
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textColor="@color/red"-->
-<!--        android:text="@string/app_name"-->
-<!--        android:textSize="50sp"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text="@string/name_mean"
+        android:fontFamily="@font/appfont"
+        android:textSize="40sp"/>
 
-</RelativeLayout>
+
+</LinearLayout>

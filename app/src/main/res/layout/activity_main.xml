@@ -15,8 +15,9 @@
         android:gravity="center"
         android:text="@string/select"
         android:textColor="@color/red"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        android:fontFamily="@font/appfont"
+        android:textStyle="bold"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -31,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginVertical="5dp"
-            android:background="@color/pink"
+            android:background="@color/beige"
             android:contentDescription="@null"
             android:scaleType="centerInside"
             android:src="@drawable/egon" />
