@@ -5,7 +5,8 @@
     android:background="@color/pink"
     android:orientation="vertical">
 
-    <FrameLayout
+    <ImageView
+        android:id="@+id/user_image1"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:layout_marginVertical="20dp"/>

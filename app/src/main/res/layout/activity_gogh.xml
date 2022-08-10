@@ -5,7 +5,8 @@
     android:background="@color/pink"
     android:orientation="vertical">
 
-    <FrameLayout
+    <ImageView
+        android:id="@+id/user_image2"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:layout_marginVertical="20dp"/>
@@ -16,7 +17,7 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/egonUpload"
+            android:id="@+id/goghUpload"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/upload"
@@ -26,7 +27,7 @@
             android:fontFamily="@font/appfont"/>
 
         <Button
-            android:id="@+id/egonChange"
+            android:id="@+id/goghChange"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/change"
